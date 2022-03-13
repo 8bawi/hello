@@ -10,8 +10,6 @@ jobs:
 
     steps:
         - checkout
-        - python/install-packages:
-          pkg-manager: pip
         - run:
               name: Install Dependencies
               # This assumes pytest is installed via the install-package step above
