@@ -15,7 +15,7 @@ jobs:
               # This assumes pytest is installed via the install-package step above
               command: |
                 python3 -m venv venv
-                . venv/bin /activate
+                . venv/bin/activate
                 pip install -r requirements.txt
         - run:
               name: run lint
